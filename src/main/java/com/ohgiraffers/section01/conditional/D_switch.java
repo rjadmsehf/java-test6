@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class D_switch {
 
-    public void  testSimpleSwitchStatement() {
+    public void testSimpleSwitchStatement() {
 
         /* 목표. switch 문 단독 사용에 대한 흐름을 이해하고 적용할 수 있다.*/
         /* 필기
@@ -37,32 +37,32 @@ public class D_switch {
         int second = sc.nextInt();
 
         System.out.println("연산 기호 입력 (+ ,- ,* ,/ ,%) : ");
-        char op =sc.next().charAt(0);
+        char op = sc.next().charAt(0);
 
         /* 연산의 결과를 저장할 변수 생성 */
         int result = 0;
 
         /* 입력한 연산기호 문자에 따라 연산의 결과가 달라짐 */
         switch (op) {
-            case '+' :
+            case '+':
                 result = first + second;
                 break;
-            case '-' :
+            case '-':
                 result = first - second;
                 break;
-            case '*' :
+            case '*':
                 result = first * second;
                 break;
-            case '/' :
+            case '/':
                 result = first / second;
                 break;
-            case '%' :
+            case '%':
                 result = first % second;
                 break;
 
 
         }
-        System.out.println(first + " " + op + " "+ second + " = " + result);
+        System.out.println(first + " " + op + " " + second + " = " + result);
 //        6 * 3 = 18;
 
     }
@@ -112,6 +112,10 @@ public class D_switch {
                 break;
 
         }
-        System.out.println(price + "원을 투입해주세요");
+        if (price == 0) {
+            System.out.println("잘못 입력하셨습니다.");
+        } else {
+            System.out.println(price + " 원을 투입해주세요");
+        }
     }
 }

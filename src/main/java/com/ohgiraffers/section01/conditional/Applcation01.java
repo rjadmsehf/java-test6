@@ -7,15 +7,15 @@ public class Applcation01 {
 //        A_if a =  new A_if();
 ////        a.testSimpleIfStatement();
 ////          a.testNesttedIfSiaiement();
-        B_ifElse b = new B_ifElse();
-////        b.testSimpleIfElseStatement();
-       b.testNestedIfElseStatement();
+//        B_ifElse b = new B_ifElse();
+//////        b.testSimpleIfElseStatement();
+//       b.testNestedIfElseStatement();
 //
 //        C_ifElseif c = new C_ifElseif();
 //        c.testSimmpleIfElseIfStattement();
-//        D_switch d = new D_switch();
+        D_switch d = new D_switch();
 //        d.testSimpleSwitchStatement();
-//        d.testSwitchVendingMachine();
+        d.testSwitchVendingMachine();
 
 
 
