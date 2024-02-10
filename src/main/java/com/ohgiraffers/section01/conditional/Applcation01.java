@@ -14,8 +14,8 @@ public class Applcation01 {
 //        C_ifElseif c = new C_ifElseif();
 //        c.testSimmpleIfElseIfStattement();
         D_switch d = new D_switch();
-//        d.testSimpleSwitchStatement();
-        d.testSwitchVendingMachine();
+        d.testSimpleSwitchStatement();
+//        d.testSwitchVendingMachine();
 
 
 
