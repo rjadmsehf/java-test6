@@ -25,6 +25,7 @@ public class Application01 {
 
         B_while b = new B_while();
         b.testSimpleWhileStatment();
+
     }
 
 }
